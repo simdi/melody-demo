@@ -39,7 +39,7 @@ const withClickHandlers = bindEvents({
     }
   },
   decrementButton: {
-    click(event, {dispatch}) {
+    click(event, {dispatch}) { 
       dispatch(decreaseCounter());
     }
   }
